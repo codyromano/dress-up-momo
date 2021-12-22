@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Manrope:wght@200;400;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Manrope;
+}
+
+main {
+  margin-bottom: 2rem;
+}
+
+.exploration-card {
+  border: solid pink 2px;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  background-color: rgba(246, 202, 207, 0.25);
+}
+
+.muted {
+  color: #555;
+}
+
+.explore-page {
+  margin-top: 3rem;
+}
+
+.hero {
+  font-size: 3rem;
+}
+
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1.05rem;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+header {
+  padding-top: 1rem;
+}
+
+.accent {
+  color: #0984e3;
+}
+
+.low-key {
+  background-color: transparent;
+  color: #000;
+  border-bottom: dotted #000 1px;
+  border-radius: 0;
+  padding: 0;
+}
+
+.block-button {
+  display: block;
+  width: 100%;
+}
+
+.app-content {
+  max-width: 45rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fluid {
+  width: 100%;
+}
+
+.game-progress-graphic {
+  width: 100px;
+  padding-right: 15px;
+}
+
+.game-progress {
+  /* LOL */
+  display: flex !important;
+
+  align-items: center;
+  align-content: center;
+}
+
+.top-action-bar {
+  top: 1rem;
+  right: 1rem;
+  text-align: right;
+  padding-top: 0.5rem;
+}
+
+.momo-background {
+  background-color: rgb(246, 204, 208);
+}
+.momo-container {
+  position: relative;
+  max-width: 50rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.accessory {
+  position: absolute;
+  animation-name: accessory-fly-in;
+  animation-duration: 1s;
+}
+
+@keyframes accessory-fly-in {
+  from {
+    transform: translateX(-25%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.accessory-propeller {
+  width: 30%;
+  left: 35%;
+  top: -25%;
+}
+
+.accessory-chicken {
+  width: 40%;
+  left: 27%;
+  top: -5%;
+}
+
+.accessory-gold-chain {
+  width: 40%;
+  top: 60%;
+  left: 30%;
+}
+
+.accessory-indeed-sweater {
+  width: 80%;
+  top: 20%;
+  left: 10%;
+}
+
+.accessory-keep-austin-weird {
+  width: 80%;
+  top: 40%;
+  left: 10%;
+}
+
+.accessory-space-suit {
+  top: -40%;
+  left: -35%;
+  width: 170%;
+}
+
+.button-bar {
+  display: flex;
+  justify-items: space-between;
+  justify-content: space-between;
+}
+.button-bar button {
+  flex: 1;
+}
+.button-bar button + button {
+  margin-left: 0.5rem;
+}
+.secondary {
+  background-color: #ff7675;
+  background-color: rgb(246, 202, 207);
+  background-color: #fd79a8;
+}
+
+.row {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  font-family: Oooh Baby;
+}
+
+ol {
+  margin-left: 1rem;
+}
+
+p {
+  line-height: 200%;
+}
+
+.momo {
+  width: 100%;
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
